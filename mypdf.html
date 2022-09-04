@@ -9,10 +9,40 @@
          body {
             font-family: "Times New Roman", Times, serif;
         }
-        
+
+        .Navbar {
+        height: 40rem;
+        background-color: skyblue !important;
+        -webkit-print-color-adjust: exact;
+        display: flex;
+        border-top: 15px solid black;
+        align-items: flex-start;
+        justify-content: space-around;
+        text-align: center !important;
+        z-index: 0;
+        /* justify-content: center; */
+      }
+
+      .table_Container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(240, 240, 240) !important;
+        -webkit-print-color-adjust: exact;
+        margin-top: 3rem;
+        width: 80%;
+        border-radius: 1rem;
+      }
+       
+      .table {
+        width: 90%;
+        margin-top: 3rem;
+      }
+
        .container-fluid{
          border-collapse: collapse ;
-        margin: auto;
+         margin: auto;
        }
 
        .content-table{
@@ -69,9 +99,18 @@
                 </div>
             </div>
         </div>
+    <div
+    style="
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -20rem;
+        flex-direction: column;
+    "
+    >   
         <div class="page-break"></div>
         <div class="table_Container">
-            <table class="content-table">
+            <table class="table content-table">
                 <h1 class="table_Heading">LOOSEHEAD PROP</h1>
                 <thead class="thead-dark">
                 <tr>
@@ -145,7 +184,7 @@
         </div>
         <div class="page-break"></div>
         <div class="table_Container">
-            <table class="content-table">
+            <table class="table content-table">
                 <h1 class="table_Heading">LOOSEHEAD PROP</h1>
                 <thead class="thead-dark">
                 <tr>
@@ -219,7 +258,7 @@
         </div>
         <div class="page-break"></div>
         <div class="table_Container">
-            <table class="content-table">
+            <table class="table content-table">
                 <h1 class="table_Heading">LOOSEHEAD PROP</h1>
                 <thead class="thead-dark">
                 <tr>
@@ -291,6 +330,7 @@
                 </tbody>
             </table>
         </div>
+    </div>    
     </div>
 </body>
 </html>
