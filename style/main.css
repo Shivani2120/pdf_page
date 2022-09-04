@@ -1,0 +1,15 @@
+.main{
+    width: 700px;
+    height: 400px;
+    background-color: red;
+    font-size: 50px;
+    color: blue;
+    text-align: center;
+    font-family: verdana;
+}
+
+.main:hover{
+    height: 300px;
+    color: black !important;
+    background: green;
+}
